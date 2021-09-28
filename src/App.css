@@ -659,29 +659,28 @@ span.white-bold {
   color: #fff;
   font-weight: bold;
 }
-.mobile-msg{
-  display:none;
+.mobile-msg {
+  display: none;
 }
 @media only screen and (max-width: 767px) {
   .app-wrapper {
     background: none;
   }
-  .mobile-msg{
-  display:block;
-}
   .app-container {
     display: none;
+  }
+  .mobile-msg {
+    display: block;
   }
   .mobile-msg h1 {
     padding: 10px;
     font-size: 10px;
     text-align: center;
     margin-bottom: 0;
-}
-  .left-sidebar{
-   width:100vw; 
   }
-  
+  .left-sidebar {
+    width: 100vw;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -692,9 +691,11 @@ span.white-bold {
   .price-desc {
     width: 100%;
   }
-  section.banner-section {
-    padding: 20px;
-    height: auto;
+
+  section.pricing-section {
+    position: relative;
+    top: 0;
+    flex-direction: column-reverse;
   }
 }
 
@@ -705,6 +706,11 @@ span.white-bold {
   .courses-desc,
   .price-desc {
     width: 48%;
+  }
+  section.banner-section {
+    padding: 20px;
+    height: auto;
+    flex-direction: column-reverse;
   }
 }
 
@@ -866,7 +872,21 @@ a {
   display: inline-block;
   transform: translateY(-5px);
 }
-
+@media (max-width: 1023px) {
+  section.banner-section {
+    padding: 20px;
+    height: auto;
+    flex-direction: column-reverse;
+  }
+  .pricing-container {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .prog-text {
+    width: 100%;
+    margin-right: 0px;
+  }
+}
 @media (max-width: 1200px) {
   section.coming-soon {
     flex-direction: column-reverse;
