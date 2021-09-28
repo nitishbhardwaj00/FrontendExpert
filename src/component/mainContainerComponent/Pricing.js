@@ -12,7 +12,7 @@ export default function Pricing(){
 
             <PricingDesc 
             title="Front-end Beginner" 
-            price =' ₹ 1000 ' 
+            price =' ₹ 499 ' 
             className="beginner"
             path='/BegineerCourse'
             LinkTitle="Enroll Now!"
@@ -21,7 +21,7 @@ export default function Pricing(){
 
             <PricingDesc 
             title="Front-end Intermediate" 
-            price =' ₹ 5000 ' 
+            price =' ₹ 4999 ' 
             className="intermediate"
             path='/IntermediateCourse'
             LinkTitle="Enroll Now!"
@@ -31,7 +31,7 @@ export default function Pricing(){
 
             <PricingDesc 
             title="Front-end Expert" 
-            price =' ₹ 7000 ' 
+            price =' ₹ 5999 ' 
             className="expert"
             path='/ComingSoon'
             LinkTitle="Enroll Now!"
