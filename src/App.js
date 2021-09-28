@@ -10,6 +10,7 @@ import ComingSoon from './component/courseStructure/ComingSoon';
 import {
     BrowserRouter as Router,
     Switch,
+    browserHistory,
   Route,
   } from "react-router-dom";
 
@@ -28,7 +29,7 @@ function App() {
 
         
         {/* <MainContainer /> */}
-        <Router>
+        <Router history={hashHistory}>
         <div className="navbarleft-container">
         <NavbarLeft />
         </div>
