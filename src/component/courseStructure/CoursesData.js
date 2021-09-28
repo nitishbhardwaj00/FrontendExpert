@@ -103,11 +103,11 @@ module.exports = [
           {
             "id":"js-2",
             "moduleTitle": "Data Types & Function",
-            "moduleSubtitle": ["The Concept of Data Types", "Various kind of data types in JS ", "Function in JS", "Excerise on Array and String methods" ]
+            "moduleSubtitle": ["The Concept of Data Types", "Various kind of data types in JS ", "Function in JS", "Excerise on Data Types & Function" ]
           },
           {
             "id":"js-3",
-            "moduleTitle": "Condition & Loopsin JS",
+            "moduleTitle": "Condition & Loops in JS",
             "moduleSubtitle": ["If condition", "If-else & If-else ladder","For, while, do-while & Switch", "Excerise on Conditional programming & Loops" ]
           },
           {
