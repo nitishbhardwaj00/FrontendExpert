@@ -19,9 +19,12 @@ function App() {
   return (
     <div className="App">
     <div className ="app-wrapper">
+      <div className="mobile-msg">
+                    <h1 className="">Avilable only on Large device Please <span style={{color:'#ff0000'}}>ON</span> the desktop view to show the page on mobile</h1>
+            </div>
       <section className="App-container">
 
-        
+      
 
         
         {/* <MainContainer /> */}
