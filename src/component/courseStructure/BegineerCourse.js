@@ -20,7 +20,7 @@ export default function BegineerCourse(){
                 
             </section>
             <CoursePricing 
-            pricing="1000" 
+            pricing="499" 
             progText="The program contains 12 modules. All modules are filled with interactive coding challenges to ensure that you don't fall off the wagon. You'll learn HTML, CSS, Animations for web, UI design, career strategy, and more..."
             />
 
