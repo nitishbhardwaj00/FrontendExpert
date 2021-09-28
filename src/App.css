@@ -188,7 +188,7 @@ a.link:hover {
 .right-sidebar {
   background: #20202a;
   width: 290px;
-  min-width: 290px;
+  min-width: 100%;
   height: 100vh;
   position: relative;
   z-index: 999;
@@ -200,16 +200,11 @@ a.link:hover {
 }
 
 .right-sidebar {
-  width: 90px;
+  width: 100%;
   min-width: 90px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.right-sidebar.active {
-  width: 290px;
-  min-width: 290px;
 }
 
 header.nav-left-logo {
@@ -303,15 +298,15 @@ section.all-courses {
 
 .navbar-right-section,
 .navbar-footer-section {
-  width: 100%;
+  width: 90px;
   height: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: start;
   -ms-flex-pack: start;
-  justify-content: center;
-  -webkit-box-align: center;
+  justify-content: flex-start;
+  -webkit-box-align: flex-start;
   -ms-flex-align: center;
   align-items: center;
   -webkit-box-shadow: 0 1px 4px 0 rgb(15 15 20 / 10%);
@@ -321,15 +316,33 @@ section.all-courses {
     rgba(37, 37, 50, 0.98) 0%,
     rgba(35, 35, 45, 0.98) 100%
   );
+  -webkit-transition: 0.55s ease-in-out;
+  transition: 0.55s ease-in-out;
+}
+.navbar-right-section.active {
+  width: 290px;
+}
+.navbar-right-section.active ul {
+  width: 290px;
+  min-width: 290px;
 }
 
-.right-sidebar .icon {
-  margin-top: -10px;
+.right-sidebar .icon,
+.navbar-footer-section .ri-login-box-line {
   display: inline-block;
   padding: 30px;
   cursor: pointer;
 }
-
+.right-sidebar .icon:hover,
+.navbar-footer-section .ri-login-box-line:hover {
+  color: #fff !important;
+}
+.social-container span:hover {
+  color: #fff !important;
+}
+.social-container span {
+  cursor: pointer;
+}
 /* main-container-design */
 
 .main-container {
@@ -715,8 +728,6 @@ span.white-bold {
 }
 
 .right-sidebar ul {
-  visibility: hidden;
-  pointer-events: none;
   transition: 0.55s ease-in-out;
 }
 .right-sidebar.active ul {
@@ -774,6 +785,7 @@ section.hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 h2.lighSubtitle {
   color: #212140;
@@ -899,4 +911,37 @@ a {
     position: relative;
     top: 0;
   }
+}
+.banner-section .img-col.col svg {
+  width: 100%;
+  max-width: 560px;
+}
+
+.navbar-right-section ~ ul {
+  display: none;
+}
+.navbar-right-section.active ~ ul {
+  display: block;
+}
+
+section.navbar-footer-section {
+  width: 100%;
+}
+ul.nav {
+  padding-left: 30px;
+  transition: 5s ease-in-out;
+}
+ul.nav .nav-link a {
+  color: rgb(140, 140, 142);
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 15px;
+  border-bottom: 4px solid transparent;
+}
+ul.nav .nav-link a.active {
+  color: #fff;
+  border-color: #ffc107;
+}
+ul.nav .nav-link a:hover {
+  color: #fff;
 }
