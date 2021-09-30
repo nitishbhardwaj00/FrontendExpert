@@ -35,9 +35,9 @@ function App() {
         <div className="main-container">
             <Switch>
            <Route  exact path = "/" component={MainContainer} />
-           <Route  exact path = "BegineerCourse" component={BegineerCourse} />
-           <Route  exact path = "IntermediateCourse" component={IntermediateCourse} />
-           <Route  exact path = "ComingSoon" component={ComingSoon} />
+           <Route  exact path = "/BegineerCourse" component={BegineerCourse} />
+           <Route  exact path = "/IntermediateCourse" component={IntermediateCourse} />
+           <Route  exact path = "/ComingSoon" component={ComingSoon} />
             </Switch>
             </div>
 
