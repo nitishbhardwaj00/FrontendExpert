@@ -10,7 +10,6 @@ import ComingSoon from './component/courseStructure/ComingSoon';
 import {
     BrowserRouter as Router,
     Switch,
-    browserHistory,
   Route,
   } from "react-router-dom";
 
@@ -29,16 +28,16 @@ function App() {
 
         
         {/* <MainContainer /> */}
-        <Router history={hashHistory}>
+        <Router>
         <div className="navbarleft-container">
         <NavbarLeft />
         </div>
         <div className="main-container">
             <Switch>
            <Route  exact path = "/" component={MainContainer} />
-           <Route  exact path = "/BegineerCourse" component={BegineerCourse} />
-           <Route  exact path = "/IntermediateCourse" component={IntermediateCourse} />
-           <Route  exact path = "/ComingSoon" component={ComingSoon} />
+           <Route  exact path = "BegineerCourse" component={BegineerCourse} />
+           <Route  exact path = "IntermediateCourse" component={IntermediateCourse} />
+           <Route  exact path = "ComingSoon" component={ComingSoon} />
             </Switch>
             </div>
 
