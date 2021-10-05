@@ -7,7 +7,7 @@ import './App.css';
 import BegineerCourse from './component/courseStructure/BegineerCourse';
 import IntermediateCourse from './component/courseStructure/IntermediateCourse';
 import ComingSoon from './component/courseStructure/ComingSoon';
-import Form from './component/form';
+import Form from './component/Form';
 import {
     BrowserRouter as Router,
     Switch,
