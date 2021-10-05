@@ -7,6 +7,7 @@ import './App.css';
 import BegineerCourse from './component/courseStructure/BegineerCourse';
 import IntermediateCourse from './component/courseStructure/IntermediateCourse';
 import ComingSoon from './component/courseStructure/ComingSoon';
+import Form from './component/form';
 import {
     BrowserRouter as Router,
     Switch,
@@ -38,6 +39,7 @@ function App() {
            <Route  exact path = "/BegineerCourse" component={BegineerCourse} />
            <Route  exact path = "/IntermediateCourse" component={IntermediateCourse} />
            <Route  exact path = "/ComingSoon" component={ComingSoon} />
+           <Route  exact path = "/Form" component={Form} />
             </Switch>
             </div>
 
