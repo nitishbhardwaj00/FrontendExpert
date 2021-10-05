@@ -838,6 +838,7 @@ section.pricing-section {
   border-color: #bbf7d0;
   border-bottom-color: #86efac;
   transition: opacity 0.5s;
+  align-self:start;
 }
 
 .price-text {
