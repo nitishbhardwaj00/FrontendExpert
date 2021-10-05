@@ -328,13 +328,13 @@ section.all-courses {
 }
 
 .right-sidebar .icon,
-.navbar-footer-section .ri-login-box-line {
+.navbar-footer-section .ri-feedback-fill {
   display: inline-block;
   padding: 30px;
   cursor: pointer;
 }
 .right-sidebar .icon:hover,
-.navbar-footer-section .ri-login-box-line:hover {
+.navbar-footer-section .ri-feedback-fill:hover {
   color: #fff !important;
 }
 .social-container span:hover {
@@ -944,4 +944,45 @@ ul.nav .nav-link a.active {
 }
 ul.nav .nav-link a:hover {
   color: #fff;
+}
+
+
+
+/* forms styling */
+form.form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+p.label-title.mt-15{
+  font-size:18px;
+  margin-bottom:5px;
+  color:rgba(37, 37, 50, 0.98)
+}
+::placeholder{
+  font-family: "Poppins", sans-serif;
+  color:#888;
+
+}
+input.form-input, textarea, select{
+  width:100%;
+  border-radius:none;
+  border:0px solid transparent;
+  box-shadow:none;
+  padding:15px;
+  background-color: #e8f0fe;
+  font-family: "Poppins", sans-serif;
+}
+input:focus{
+  border-radius:0;
+  border:1px solid #fafafc;
+}
+.submit-btn{
+  display: inline-block;
+  max-width:200px;
+}
+
+select{
+  color:#888;
 }
