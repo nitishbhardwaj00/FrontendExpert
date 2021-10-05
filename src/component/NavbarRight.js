@@ -4,7 +4,7 @@ import NavbarRightHeader from './NavbarRightComponent/NavbarRightHeader';
 import NavbarRightFooter from './NavbarRightComponent/NavbarRightFooter';
 //import MainContainer from './MainContainer';
 //import BegineerCourse from './courseStructure/BegineerCourse';
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
   
 
@@ -29,7 +29,9 @@ export default function NavbarRight() {
 
 
             
-            <NavbarRightFooter iconName="ri-login-box-line" fontSize='30' color="#8c8c8e" title='Facebook'/>
+             <Link to= "/Form" className="">
+                <NavbarRightFooter iconName="ri-feedback-fill" fontSize='30' color="#8c8c8e" title='Login'/>
+            </Link>
         </div>
     )
 }
