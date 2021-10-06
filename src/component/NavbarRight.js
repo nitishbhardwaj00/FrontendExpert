@@ -23,7 +23,7 @@ export default function NavbarRight() {
                
                 <li className="nav-link"><NavLink to="/BegineerCourse" activeClassName="active">Begineer front-end Courses</NavLink></li>
                 <li className="nav-link"><NavLink to="/IntermediateCourse" activeClassName="active">Intermediate front-end Courses</NavLink></li>
-                <li className="nav-link"><NavLink to="/ComingSoon" activeClassName="active">Senior front-end Courses</NavLink></li>
+                <li className="nav-link"><NavLink to="/ExpertCourse" activeClassName="active">Senior front-end Courses</NavLink></li>
             </ul>
 
 
