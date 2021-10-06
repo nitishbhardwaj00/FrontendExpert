@@ -420,146 +420,7 @@ p.lightSubtitle {
   position: relative;
 }
 
-/* banner img styling */
 
-.banner-img span {
-  position: absolute;
-  display: block;
-  top: 0;
-}
-
-.banner-img span.ri-html5-fill {
-  right: 200px;
-  top: -150px;
-  animation: diagonal 1.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(0.57, 0.21, 0.87, 1.11);
-  animation-iteration-count: infinite;
-}
-
-.banner-img span.ri-github-fill {
-  right: 200px;
-  top: 100px;
-  animation: reverse3diagonal 1.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(0.57, 0.21, 0.87, 1.11);
-  animation-iteration-count: infinite;
-}
-
-.banner-img span.ri-css3-fill {
-  top: -150px;
-  right: -30px;
-  animation: reversediagonal 1.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(0.57, 0.21, 0.87, 1.11);
-  animation-iteration-count: infinite;
-}
-
-.banner-img span.ri-reactjs-line {
-  right: -30px;
-  top: 100px;
-  animation: reverse2diagonal 1.5s;
-  animation-direction: alternate;
-  animation-timing-function: cubic-bezier(0.57, 0.21, 0.87, 1.11);
-  animation-iteration-count: infinite;
-}
-.banner-img span.ri-code-box-fill {
-  top: -30px;
-  right: 73px;
-  animation: shake 3s;
-  animation-timing-function: cubic-bezier(0.57, 0.21, 0.87, 1.11);
-  animation-iteration-count: infinite;
-}
-
-.banner-img span.ri-angularjs-fill {
-  top: -20px;
-  right: 200px;
-}
-
-.banner-img span.ri-vuejs-fill {
-  right: -30px;
-  top: -20px;
-}
-
-@keyframes bounce {
-  from {
-    transform: translate3d(0, 0, 0);
-  }
-  to {
-    transform: translate3d(0, 50px, 0);
-  }
-}
-
-@keyframes right {
-  from {
-    right: 0;
-    top: 0px;
-  }
-  to {
-    right: 200px;
-    top: 100px;
-  }
-}
-
-@keyframes diagonal {
-  0% {
-    transform: translatex(0px) translatey(0px);
-  }
-  100% {
-    transform: translatex(125px) translatey(125px);
-  }
-}
-
-@keyframes reversediagonal {
-  0% {
-    transform: translatex(0px) translatey(0px);
-  }
-  100% {
-    transform: translatex(-122px) translatey(122px);
-  }
-}
-
-@keyframes reverse2diagonal {
-  0% {
-    transform: translatex(0px) translatey(0px);
-  }
-  100% {
-    transform: translatex(-120px) translatey(-120px);
-  }
-}
-
-@keyframes reverse3diagonal {
-  0% {
-    transform: translatex(0px) translatey(0px);
-  }
-  100% {
-    transform: translatex(120px) translatey(-120px);
-  }
-}
-/* Prefix Support */
-
-@keyframes shake {
-  10%,
-  90% {
-    transform: translate3d(0px, 0, 0);
-  }
-
-  20%,
-  80% {
-    transform: translate3d(5px, 0, 0);
-  }
-
-  30%,
-  50%,
-  70% {
-    transform: translate3d(-5px, 0, 0);
-  }
-
-  40%,
-  60% {
-    transform: translate3d(0px, 0, 0);
-  }
-}
 
 .courses-desc,
 .price-desc {
@@ -838,7 +699,7 @@ section.pricing-section {
   border-color: #bbf7d0;
   border-bottom-color: #86efac;
   transition: opacity 0.5s;
-  align-self:start;
+  align-self: start;
 }
 
 .price-text {
@@ -860,8 +721,17 @@ section.pricing-section {
 .begineer-path #javaScript {
   display: none;
 }
+.begineer-path #React {
+  display: none;
+}
 .intermediatecourses #javaScript {
   display: block;
+}
+.intermediatecourses #React {
+  display: none;
+}
+.expertcourses #javaScript,.expertcourses #React {
+  display:block;
 }
 
 section.coming-soon {
