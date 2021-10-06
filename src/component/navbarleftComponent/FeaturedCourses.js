@@ -12,7 +12,7 @@ return(
                 <Courses title= "Scss" icon = " " iconText="scss" path = "/BegineerCourse"/>
                 <Courses title= "javaScript" icon = " " iconText="JS" path = "/IntermediateCourse"/>
                 <Courses title= "jQuery" icon = " ri-code-box-fill" iconText="" path = "/IntermediateCourse"/>
-                <Courses title= "React.js" icon = " ri-reactjs-line" iconText="" path = "/ComingSoon"/>
+                <Courses title= "React.js" icon = " ri-reactjs-line" iconText="" path = "/ExpertCourse"/>
             </div>
 
 
