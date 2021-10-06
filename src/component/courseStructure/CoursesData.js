@@ -103,7 +103,7 @@ module.exports = [
           {
             "id":"js-2",
             "moduleTitle": "Data Types & Function",
-            "moduleSubtitle": ["The Concept of Data Types", "Various kind of data types in JS ", "Function in JS", "Excerise on Data Types & Function" ]
+            "moduleSubtitle": ["The Concept of Data Types", "Various kind of data types in JS ", "Function in JS", "Data Types & Function" ]
           },
           {
             "id":"js-3",
@@ -142,13 +142,71 @@ module.exports = [
           {
             "id":"js-9",
             "moduleTitle": "Miscellaneous",
-            "moduleSubtitle": [ "BOM","Math(), max(), min() & random()", "JS Dates", "Writing clean and maintainable codes", "Dimensions ","Basic Of JS testing"]
+            "moduleSubtitle": [ "BOM(Browser object modal)","Math(), max(), min() & random()", "JS Dates", "Writing clean and maintainable codes", "Dimensions ","Basic Of JS testing"]
           },
 
           {
             "id":"js-10",
             "moduleTitle": "Project",
             "moduleSubtitle": [ " Making Slider from scratch","JS Hanging Game", "Custom Video player"]
+          },
+        ]
+      },
+
+      {
+  
+        "id": "React",
+        "courseTitle": "React",
+        "CourseModule":[
+          {
+            "id":"react-1",
+            "moduleTitle": "Introduction to React.js",
+            "moduleSubtitle": ["Why React.js?","Where does React.js live?", "Advantages and disadvantages of React.js" , "Installing React from Create-react-app", "File structure Explanation"]
+          },
+
+          {
+            "id":"react-2",
+            "moduleTitle": "Prerequist of courses",
+            "moduleSubtitle": ["Strong understanding of javaScript", " ES6 ", "Basic of HTML", "Basic of CSS" ]
+          },
+          {
+            "id":"react-3",
+            "moduleTitle": "JSX (javaScript XML)",
+            "moduleSubtitle": ["JSX syntax and javaScript", "JSX syntax and HTML","JSX Attributes", "Nested JSX element", "Multiple JSX expression", "Embedding javaScript in JSX" ]
+          },
+          {
+            "id":"react-4",
+            "moduleTitle": "Writting your first Component",
+            "moduleSubtitle": ["Introduction to Class based component","Props, super() this.props and introduction to State", "React component base element", "Importing React", "render() & ReactDOM.render()","Render method in React" ]
+          },
+
+          {
+            "id":"react-5",
+            "moduleTitle": "Component Interaction & Reusable component in React",
+            "moduleSubtitle": [ "Convertiing class based component to functional component", " Passing data with props ", "state handling in functional component", "Styling of react component"]
+          },
+
+          {
+            "id":"react-6",
+            "moduleTitle": "Advance React.js",
+            "moduleSubtitle": ["Revision of Advance javaScript", "Introduction to React HOOKS(useState(), useEffect(), useRef() and more...)", "Fetch Data from JSON file", "Fetch Data using fetch api" , "Introduction to AXIOS"]
+          },
+          {
+            "id":"react-7",
+            "moduleTitle": "React Form handelling & UI libraries in React",
+            "moduleSubtitle": ["Setting states for various input types", "Form validation" , "React materialize library"]
+          },
+
+          {
+            "id":"react-8",
+            "moduleTitle": "Miscellaneous",
+            "moduleSubtitle": [ "Virtual DOM","Custom Hooks", "Conditional Rendring in React", " Handling form data with Firebase"]
+          },
+
+          {
+            "id":"react-9",
+            "moduleTitle": "Project",
+            "moduleSubtitle": [ " React Website ","Receipe Maker App", "Meme Generater", "Live portfolio with firebase"]
           },
         ]
       }
