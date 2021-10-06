@@ -6,13 +6,14 @@ import MainContainer from './component/MainContainer';
 import './App.css';
 import BegineerCourse from './component/courseStructure/BegineerCourse';
 import IntermediateCourse from './component/courseStructure/IntermediateCourse';
-import ComingSoon from './component/courseStructure/ComingSoon';
-import Form from './component/Form';
+//import ComingSoon from './component/courseStructure/ComingSoon';
+import Form from './component/form/Form'
 import {
     BrowserRouter as Router,
     Switch,
   Route,
   } from "react-router-dom";
+import ExpertCourse from './component/courseStructure/ExpertCourse';
 
 
  
@@ -20,12 +21,10 @@ function App() {
   return (
     <div className="App">
     <div className ="app-wrapper">
-      <div className="mobile-msg">
+    <div className="mobile-msg">
                     <h1 className="">Avilable only on Large device Please <span style={{color:'#ff0000'}}>ON</span> the desktop view to show the page on mobile</h1>
             </div>
       <section className="App-container">
-
-      
 
         
         {/* <MainContainer /> */}
@@ -38,7 +37,7 @@ function App() {
            <Route  exact path = "/" component={MainContainer} />
            <Route  exact path = "/BegineerCourse" component={BegineerCourse} />
            <Route  exact path = "/IntermediateCourse" component={IntermediateCourse} />
-           <Route  exact path = "/ComingSoon" component={ComingSoon} />
+           <Route  exact path = "/ExpertCourse" component={ExpertCourse} />
            <Route  exact path = "/Form" component={Form} />
             </Switch>
             </div>
