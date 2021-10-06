@@ -33,7 +33,7 @@ export default function Pricing(){
             title="Front-end Expert" 
             price =' ₹ 5999 ' 
             className="expert"
-            path='/ComingSoon'
+            path='/ExpertCourse'
             LinkTitle="Enroll Now!"
             pricingDescription = {<>This career path will turn you into a hireable senior Frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 70 hours</span>  hours of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
             />
