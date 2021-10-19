@@ -7,7 +7,8 @@ import './App.css';
 import BegineerCourse from './component/courseStructure/BegineerCourse';
 import IntermediateCourse from './component/courseStructure/IntermediateCourse';
 //import ComingSoon from './component/courseStructure/ComingSoon';
-import Form from './component/Form'
+import MainEditor from './component/MainEditor';
+import Form from './component/form/Form'
 import {
     BrowserRouter as Router,
     Switch,
@@ -39,6 +40,7 @@ function App() {
            <Route  exact path = "/IntermediateCourse" component={IntermediateCourse} />
            <Route  exact path = "/ExpertCourse" component={ExpertCourse} />
            <Route  exact path = "/Form" component={Form} />
+           <Route  exact path = "/MainEditor" component={MainEditor} />
             </Switch>
             </div>
 
