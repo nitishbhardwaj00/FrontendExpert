@@ -13,7 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "codemirror": "^5.63.3",
     "gh-pages": "^3.2.3",
-    "react": "^17.0.2",
+    "react": "^16.8.0",
     "react-codemirror2": "^7.2.1",
     "react-dom": "^18.0.0-alpha-996da67b2-20211018",
     "react-router-dom": "^6.0.0-beta.7",
