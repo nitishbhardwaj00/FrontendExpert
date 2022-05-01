@@ -683,8 +683,6 @@ section.pricing-section {
   margin-top: 30px;
   border-radius: 5px;
   display: flex;
-  position: sticky;
-  top: -60px;
   z-index: 9;
 }
 .prog-text {
