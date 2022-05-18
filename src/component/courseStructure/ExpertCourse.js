@@ -22,8 +22,8 @@ export default function ExpertCourse(){
             </section>
 
             <CoursePricing 
-                pricing="12999" 
-                progText="The program contains 31 modules. All modules are filled with interactive coding challenges to ensure that you don't fall off the wagon. You'll learn HTML, CSS, Animations for web, UI design, javaScript , React.js and how to comunicate with the https & Api calls, career strategy,  and more..."/>
+                pricing="15999" 
+                progText="The program contains 30+ modules. All modules are filled with interactive coding challenges to ensure that you don't fall off the wagon. You'll learn HTML, CSS, Animations for web, UI design, javaScript , React.js and how to comunicate with the https & Api calls, career strategy,  and more..."/>
             <Path />
             <Footer />
         </section>
