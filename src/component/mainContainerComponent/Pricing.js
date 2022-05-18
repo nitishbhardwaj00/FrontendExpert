@@ -31,7 +31,7 @@ export default function Pricing(){
 
             <PricingDesc 
             title="Front-end Expert" 
-            price =' ₹ 14999 ' 
+            price =' ₹ 15999 ' 
             className="expert"
             path='/ExpertCourse'
             LinkTitle="Enroll Now!"
