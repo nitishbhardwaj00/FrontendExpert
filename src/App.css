@@ -745,13 +745,14 @@ a {
   text-decoration: none !important;
 }
 
-.featured-courses-link {
-  transition: all 1s ease-in-out;
+.featured-courses-link span{
+  transition: all .5s ease-in-out;
 }
 
 .featured-courses-link:hover span {
   display: inline-block;
   transform: translateY(-5px);
+  transition: all .5s ease-in-out;
 }
 @media (max-width: 1023px) {
   section.banner-section {
