@@ -110,9 +110,9 @@ const { name , phone , email , message} = user;
             onChange={(e) => setSelect(e.target.value)}
             >
                 
-                <option className="form-input" value="Begineer Course ( ₹ 499/-)">Begineer Course ( ₹ 499/-) </option>
-                <option className="form-input" value="Intermediate Course ( ₹ 4999/-)">Intermediate Course ( ₹ 4999/-)</option>
-                <option className="form-input" value="Expert Course ( ₹ 5999/-)">Expert Course ( ₹ 5999/-)</option>
+                <option className="form-input" value="Begineer Course ( ₹ 5999/-)">Begineer Course ( ₹ 5999/-) </option>
+                <option className="form-input" value="Intermediate Course ( ₹ 10999/-)">Intermediate Course ( ₹ 10999/-)</option>
+                <option className="form-input" value="Expert Course ( ₹ 15999/-)">Expert Course ( ₹ 15999/-)</option>
                 
             </select>
             </label>
