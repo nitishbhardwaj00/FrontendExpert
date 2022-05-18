@@ -29,8 +29,8 @@ export default function BegineerCourse(){
 
 
             <CoursePricing 
-                pricing="5999" 
-                progText="The program contains 22 modules. All modules are filled with interactive coding challenges to ensure that you don't fall off the wagon. You'll learn HTML, CSS, Animations for web, UI design, javaScript and how to comunicate with the https & Api calls, career strategy,  and more..."/>
+                pricing="10999" 
+                progText="The program contains 20+ modules. All modules are filled with interactive coding challenges to ensure that you don't fall off the wagon. You'll learn HTML, CSS, Animations for web, UI design, javaScript and how to comunicate with the https & Api calls, career strategy,  and more..."/>
             <Path />
             <Footer />
         </section>
