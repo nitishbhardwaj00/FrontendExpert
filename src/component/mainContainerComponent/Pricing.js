@@ -16,7 +16,7 @@ export default function Pricing(){
             className="beginner"
             path='/BegineerCourse'
             LinkTitle="Enroll Now!"
-            pricingDescription = {<>This career path will turn you into a hireable Junior frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 30 hours</span>  of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
+            pricingDescription = {<>This career path will turn you into a hireable Junior frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 50+ hours</span>  of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
             />
 
             <PricingDesc 
@@ -25,7 +25,7 @@ export default function Pricing(){
             className="intermediate"
             path='/IntermediateCourse'
             LinkTitle="Enroll Now!"
-            pricingDescription = {<>This career path will turn you into a hireable Frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 50 hours</span>   of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
+            pricingDescription = {<>This career path will turn you into a hireable Frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 80+ hours</span>   of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
             />
 
 
@@ -35,7 +35,7 @@ export default function Pricing(){
             className="expert"
             path='/ExpertCourse'
             LinkTitle="Enroll Now!"
-            pricingDescription = {<>This career path will turn you into a hireable senior Frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 70 hours</span>  hours of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
+            pricingDescription = {<>This career path will turn you into a hireable senior Frontend Developer, and teach you how to nail the job interview. It contains over <span className="white-bold"> 100+ hours</span> of top-notch tutorials, with coding challenges, and dozens of real-world projects.</>}
             />
             
             </div>
